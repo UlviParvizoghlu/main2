@@ -1,0 +1,62 @@
+// let text= "AbCDefG"
+// let arr=[]
+// for( let i=0;i<text.length;i++)
+// {
+//     if(text.charCodeAt(i)>96 && text.charCodeAt(i)<124 )
+//     {
+//         arr.push(text[i])
+//     }
+// }
+// console.log(arr);
+
+
+
+// let text= [96 ,97 ,98]
+// for( let i=0;i<text.length;i++)
+// {
+//     console.log(String.fromCharCode(text[i]));
+// }
+
+
+// let text = 'abc j anasdna k adada'
+// let sbc = ""
+
+// for(let i=0;i<text.length;i++)
+// {
+//     if(text[i]!=" ")
+//     {
+//         sbc+=text[i];
+//     }
+// }
+// console.log(sbc);
+
+
+// let text ='abc'
+// let say = 3
+// let sads = ''
+// for(let i=0;i<say;i++)
+// {
+//     sads+=text;
+// }
+// console.log(sads)
+
+
+// let text= "abCDefG"
+// let arr=' '
+// for( let i=0;i<text.length;i++)
+// {
+//     if(text[i]!='a' && text[i]!='e' )
+//     {
+//         arr+=text[i]
+//     }
+// }
+// console.log(arr);
+
+
+// let text= "abCDefG"
+// let arr=' '
+// for( let i=1;i<text.length-1;i++)
+// {
+//     arr+=text[i];
+// }
+// console.log(arr);
