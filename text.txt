@@ -1,3 +1,79 @@
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const numbers = [1, 4, 3, 8, 5, 6, 18, 13, 9, 10]
+const products = [
+  { product: 'banana', price: 3 },
+  { product: 'mango', price: 6 },
+  { product: 'potato', price: '' },
+  { product: 'avocado', price: 8 },
+  { product: 'coffee', price: 10 },
+  { product: 'tea', price: '' },
+]
+// countries.forEach(element => console.log(element));
+
+// const map1 = countries.map(x => x.toUpperCase());
+// console.log(map1);
+
+// const numbers1 = numbers.map(x => x*x);
+// console.log(numbers1);
+
+// const countryLengths = countries.map(country => country.length);
+// console.log(countryLengths);
+
+// const numbers1 = products.filter(x => x.price!=='');
+// console.log(numbers1);
+
+// const filteredCountries = countries.filter(country => country.toLowerCase().includes("land"));
+// console.log(filteredCountries);
+
+// const filteredCountries = countries.filter(country => country.toLowerCase().includes("land"));
+// console.log(filteredCountries);
+
+// const filteredCountries = countries.filter(country => country.length == 6);
+// console.log(filteredCountries);
+
+// const filteredCountries = countries.filter(country => country.length >= 6);
+// console.log(filteredCountries);
+
+// const filteredCountries = countries.filter(country => country.charAt(0) == 'D');
+// console.log(filteredCountries);
+
+
+// const sum = numbers.reduce((acc, value) => {
+//   return acc + value;
+// }, 0);
+// console.log(sum); 
+
+// const sentence = countries.reduce((accumulator, value, index, array) =>{
+//     return `${accumulator} və ${value} Simali Avropa olkləridir`;
+// }, '');
+// console.log(sentence);
+
+// const numbers3 =[1,2,2]
+// const numbers1 = numbers3.map(x => x*x);
+// const sum = numbers1.reduce((acc, value) => {
+//   return acc + value;
+// }, 0);
+// console.log(sum); 
+
+
+// function nameLength(str) {
+//     const words = str.split(" ");
+//     return words.map(str => `${str} ${str.length}`);
+// }
+// console.log(nameLength("apple ban"));
+// console.log(nameLength("you will win"));
+
+// const numbers7=[1,2,3,4,5]
+// const numbers1 = numbers7.map(x => x*-1);
+// console.log(numbers1);
+
+
+
+
+
+
+
 // let text= "AbCDefG"
 // let arr=[]
 // for( let i=0;i<text.length;i++)
