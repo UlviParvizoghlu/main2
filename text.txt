@@ -136,3 +136,33 @@ const products = [
 //     arr+=text[i];
 // }
 // console.log(arr);
+
+
+
+
+const divId = document.querySelectorAll('.divid');
+// for(let i=0;i<divId.length;i++)
+// {
+//     divId[i].addEventListener("click",function(){
+//         if(divId[i].classList.contains('addClass'))
+//         {
+//             divId[i].classList.remove('addClass')
+//         }
+//         else
+//         {
+//             divId[i].classList.add('addClass')
+//         }
+//     })
+// }
+
+divId.forEach(item=> {
+    item.addEventListener('click', (event)=>{
+        for(let i =0;i<divId.length;i++)
+        {
+            if(divId[i].classList.contains('addClass')){
+                divId[i].classList.remove('addClass')
+            }
+        }
+        event.target.classList.add('addClass')
+    })
+})
